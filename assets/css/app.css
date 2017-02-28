@@ -1,0 +1,71 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.app {
+    width: 960px;
+    height: 100%;
+    left: calc(50% - 480px);
+    display: flex;
+    position: absolute;
+}
+
+.data {
+    width: 200px;
+    background-color: #535353;
+}
+
+.flux {
+    width: 100%;
+}
+
+.navContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #2a2a2a;
+}
+
+.firstNav {
+    position: relative;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.firstNav a {
+    color: white;
+    text-decoration: none;
+}
+
+.dynamicContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.data ul {
+    list-style-type: none;
+    color: white;
+    padding: 0;
+}
+
+.data li {
+    margin: 10px 20px;
+}
+
+.dataTitle {
+    font-size: 1.2em;
+    color: #343434;
+    background-color: #c7c7c7;
+    text-align: center;
+}
